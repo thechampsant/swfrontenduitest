@@ -11,7 +11,7 @@ function App() {
         <NavBar/>
         <Header/>
         <div className='context'>
-
+      
         </div>
       </div>
     </div>
