@@ -1,0 +1,125 @@
+.card{
+    width: 28.4rem;
+    height: 18.1rem;
+    border-radius: 4px;
+    border: 1px solid #E4E7EC;
+    
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    &-archive{
+        background-color: #EBEEF2;
+    }
+    &-active{
+        background-color: #ffffff;
+    }
+    &__header{
+        flex: 2;
+        // background-color: yellow;
+        height: 100%;
+        &--box{
+            padding: 1.5rem 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            // background-color: #E4E7EC;
+            box-sizing: border-box;
+            &-heading{
+                height: 3.4rem;
+                // border: 1px solid black;
+                // background-color: red;
+                display: flex;
+                justify-content: space-between;
+                img{
+                    height: 3.6rem;
+                    width: 3.6rem;
+                    border-radius: 3px;
+                }
+                &_title{
+                    display: flex;
+                    height: 100%;
+                    width:82%;
+                    justify-content: space-between;
+                    // background-color: yellow;
+
+                    &--info{
+                        height: 100%;
+                        // background-color: red;
+                       
+                    }
+
+                }
+            }
+            &-content{
+               height: 3rem;
+               
+               &_description{
+                    margin: 0;   
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;   
+                    
+                    font-family: 'ProximaNova';
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #565656;
+               }
+            }
+        }
+    }
+    &__footer{
+        flex: 1;
+        border-top:  1px solid #E4E7EC;;
+        display: flex;
+        padding: 0 2rem;
+        align-items: center;
+        
+        &--box{
+            display: flex;
+            width: 20rem;
+
+            align-items: center;
+            justify-content: space-between;
+        }
+       
+    }
+}
+
+.box-title{
+    margin: 0;
+    font-family: 'ProximaNova';
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    color: #444444;
+}
+
+.box-created{
+    margin: 0;
+    font-family: 'ProximaNova';
+    font-size: 13px;
+    line-height: 16px;
+    color: #565656;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+    & .achrived{
+        background-color: red;
+    }
+}
+
+.count{
+    font-family: 'ProximaNova';
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.45;
+}

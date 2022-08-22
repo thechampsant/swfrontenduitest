@@ -1,3 +1,13 @@
+@font-face {
+  font-family: ProximaNovaThin;
+  src: url("../src/Font/proximaThin.otf") format("opentype");
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url("../src/Font/proxima.otf") format("opentype");
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +16,7 @@ body {
   max-width: 151.8rem;
   max-height: 120rem;
 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: ProximaNovaThin;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

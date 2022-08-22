@@ -1,17 +1,19 @@
 .App {
   display: flex;
 
-  
 }
 .container{
   flex-basis: 143.8rem;
   display: flex;
   flex-direction: column;
-  background-color: #E5E5E5;
+  background-color: rgb(242, 244, 248);
+  margin-left: 8rem;
 }
 
 .context{
   display: flex;
-
   flex: 1;
+  margin: 4rem;
+  justify-content: space-between;
+
 }
