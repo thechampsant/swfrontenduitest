@@ -1,6 +1,6 @@
 import './header.scss'
 
-import { GreyBuilding, PlusIcon } from '../SVG/SVG.component';
+import { GreyBuilding, PlusIcon, IconSearch } from '../SVG/SVG.component';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -48,7 +48,10 @@ const Header = () =>{
                     </div>
                 }
 
-
+                <div className='header__tabs-footer'>
+                    <IconSearch className="iconsearch"/>
+                    <input placeholder='Search team name ...' className='searchBar'/>
+                </div>
             </div>
         </div>
     )
