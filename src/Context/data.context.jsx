@@ -18,7 +18,6 @@ export const DataProvider = ({children}) =>{
         fetch(URL,{
             credentials: 'include',
             method: 'GET',
-            headers: {'Content-Type': 'application/json', },
         })
         .then((res) => res.body)
         .then((body) =>{
