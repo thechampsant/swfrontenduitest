@@ -13,10 +13,10 @@ body {
   padding: 0;
   box-sizing: border-box;
 
-  max-width: 151.8rem;
-  max-height: 120rem;
-
-  font-family: ProximaNovaThin;
+  width: 100vw;
+  height: 100%;
+  background-color: rgb(242, 244, 248);
+  font-family: ProximaNova;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

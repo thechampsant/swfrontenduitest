@@ -36,6 +36,37 @@ export const DataProvider = ({children}) =>{
         .catch((err) =>{
             console.log(err);
         })
+
+
+        //acheiving the same thing using Fetch--------------------------
+        // fetch(URL,{method:'GET'})
+        // .then((res) => res.body)
+        // .then((body) =>{
+        //     const reader = body.getReader()
+        //     reader.read().then(({ done, value }) => {
+                
+        //         var string = new TextDecoder().decode(value);
+        //         for (let index = 0; index < string.length; index++) {
+        //             if(string[index] === ',' ){
+        //                 let x = index + 1
+        //                 while(true){
+        //                     if(string[x] === ','){
+        //                         string = string.replaceAt(x, '',string);
+        //                     }
+        //                     else if(string[x] === '{' || string[x] === '"'){
+        //                         break;
+        //                     }
+        //                     ++x
+        //                 }
+        //             }
+        //         }
+        //         setData(JSON.parse(string))
+        //      });
+        // })
+        // .catch((err) =>{
+        //     console.log(err);
+        // })
+        //---------------------------------------------------------------
     },[])
 
     const value = {data,setData};

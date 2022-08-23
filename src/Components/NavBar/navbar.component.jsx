@@ -8,7 +8,6 @@ const NavBar = () =>{
 
     return(
         <div className='navBar'>
-           
             <div className='navBar_box'>
                 <div className="navBar-left">
                     <h1 className="mainText">
@@ -45,9 +44,7 @@ const NavBar = () =>{
                         :null
 
                     }
-                    
             </div>
-                
         </div>
     )
 }
